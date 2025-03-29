@@ -1,1 +1,85 @@
 /* your code here */
+:root{
+	background-color: green;
+}
+.product{
+	background-color: white;
+	display: flex;
+	width: 600px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.photo-album> ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-around;
+	align-items: center;
+}
+.photo-album> ul> li{
+	
+	border: 1px solid grey;
+}
+.photo-main{
+	background-color: olivedrab;
+}
+.controls{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	/* margin: 5px; */
+}
+.controls> i{
+	margin: 10px;
+}
+.product__info{
+	margin: 20px;
+}
+.title{
+	font-weight: 800;
+	/* margin: 20px; */
+}
+.title> h1{
+	margin: 10px 0px 0px 0;  
+}
+.title> span{
+	margin: 0;
+	color: grey;
+}
+.price{
+	color: red;	
+}
+.price>span{
+	font-size: 34px;
+	
+}
+.variant> h3{
+	color: grey;
+}
+.variant> ul{
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+	
+}
+.variant>ul>li{
+	list-style: none;
+	border: 1px solid grey;
+	/* height: 10px; */
+	
+	
+}
+.variant>ul>li>img{
+	height: 40px;
+}
+.description> h3{
+	color: grey;
+}
+button{
+	background-color: indianred;
+	color: white;
+	height:40px;
+	width: 120px;
+	/* border-color: none; */
+	border-radius: 5px;
+}
